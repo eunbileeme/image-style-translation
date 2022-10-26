@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}">
+</head>
+
+<body class="is-preload">
+
+    <!-- Header -->
+    <header id="header">
+        <h1>인공지능 기술로 사진의 스타일을 바꾸어보기</h1>
+        <p>자신의 사진을 업로드하고 원하는 스타일을 선택하세요!</p>
+    </header>
+
+    <!-- Signup Form -->
+    <form id="upload-form" action="{{url_for('upload')}}" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*" multiple>
+        <input type="submit" value="Upload">
+        <br><br>
+        <div>
+            <label for="style">원하는 스타일을 고르세요:</label>
+            <select id="style" name="style">
+                <option value="Fire_Style_22000_Iterations.t7">fire_style</option>
+                <option value="pink_style_1800.t7">Pink Style</option>
+                <option value="triangle_style_1000.t7">Triangle Style</option>
+                <option value="flame_style_4500.t7">Flame Style</option>
+                <option value="landscape_style_11600.t7">Landscape Style</option>
+                <option value="rain_style_iter_4000.t7">Rain Style</option>
+                <option value="starry_night_2500.t7">Starry Night Style</option>
+                <option value="mosaic.t7">Mosaic Style</option>
+                <option value="the_scream.t7">The Scream Style</option>
+                <option value="the_wave.t7">The Wave Style</option>
+            </select>
+        </div>
+        <div>
+            <label for="style">기계를 학습시킬 옵션을 선택하세요:</label>
+            <select id="style" name="style">
+                <option value>학습 횟수: 1000번</option>
+                <option value>학습 횟수: 1500번</option>
+                <option value>학습 횟수: 5000번</option>
+                <option value>학습 optimizer: Adam</option>
+                <option value>학습 optimizer: SGD</option>
+                <option value>학습 optimizer: rmsprop</option>
+            </select>
+        </div>
+    </form>
+
+
+    <!-- Footer -->
+    <footer id="footer">
+        <ul class="icons">
+            <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+            <li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+        </ul>
+        <ul class="copyright">
+            <li>&copy; Eulji University-Medical.IT.</li>
+            <li>Credits: <a>KkangTong</a></li>
+        </ul>
+    </footer>
+
+    <!-- Scripts -->
+    <script
+        src="E:\users\stud01\stud02(SH)\pyFlaskOpenCV-master\pyFlaskOpenCV-master\static\assets\js\main.js"></script>
+
+</body>
+
+</html>

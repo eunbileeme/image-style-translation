@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}">
+    #
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+    스타일 변화 완료!
+    {% for image_name in image_names %}
+    <div>
+        <img src="{{url_for('send_processed_image', filename=image_name, selected_style=selected_style)}}">
+
+    </div>
+    {% endfor %}
+    <script
+        src="E:\users\stud01\stud02(SH)\pyFlaskOpenCV-master\pyFlaskOpenCV-master\static\assets\js\main.js"></script>
+</body>
+</body>
+
+</html>
