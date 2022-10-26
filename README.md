@@ -4,7 +4,7 @@
 - 사용 시 가상환경의 메모리가 부족할 수 있으므로 추가로 용량을 확보하신 후 실행하시길 바랍니다.
 
 <img src = "https://user-images.githubusercontent.com/103405457/197936203-814f3666-edcf-4176-9feb-5fbda933b00d.png">
-<img src = "https://user-images.githubusercontent.com/103405457/197936286-1767b872-2d93-4872-894e-fe675f88703f.png"> <img src = "https://user-images.githubusercontent.com/103405457/197936359-7735cae0-f534-45fc-b803-37aebef3a348.png">
+<img src = "https://user-images.githubusercontent.com/103405457/197936433-6017fe66-d367-4aa5-ae80-dbcc7338b46a.png">
 
 ## index
 - app.py
