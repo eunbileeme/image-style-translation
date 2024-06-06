@@ -11,3 +11,6 @@
 - complete.html
 - neuralstyleprocess.py
 - upload.py
+
+## 더 자세한 내용은 아래의 링크를 참고해주시길 바랍니다.
+- [팀원 GitHub](https://github.com/Sunghoon-Bae-tm/Flask-for-Neural-style-transfer-website)
